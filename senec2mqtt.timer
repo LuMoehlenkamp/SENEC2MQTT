@@ -1,0 +1,10 @@
+[Unit]
+Description=Schedule to connect senec api to openWB via MQTT
+
+[Timer]
+OnBootSec=5sec
+OnUnitActiveSec=5sec
+AccuracySec=1
+
+[Install]
+WantedBy=timers.target
