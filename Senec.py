@@ -80,7 +80,7 @@ class SenecAPI():
         return data
 
 BASIC_REQUEST = {
-    #'STATISTIC': {
+    # 'STATISTIC': {
     #    'CURRENT_STATE': '',  # Current state of the system (int, see SYSTEM_STATE_NAME)            "Keller/Solar/SystemStatus"
     #    'LIVE_BAT_CHARGE_MASTER': '',  # Battery charge amount since installation (kWh)             "Keller/Solar/BatEnergyCharge"
     #    'LIVE_BAT_DISCHARGE_MASTER': '',  # Battery discharge amount since installation (kWh)       "Keller/Solar/BatEnergyDischarge"
@@ -89,7 +89,7 @@ BASIC_REQUEST = {
     #    'LIVE_HOUSE_CONS': '',  # House consumption since installation (kWh)                        "Keller/Solar/HouseEnergy"
     #    'LIVE_PV_GEN': '',  # PV generated power since installation (kWh)                           "Keller/Solar/SolarEnergy"
     #    'MEASURE_TIME': ''  # Unix timestamp for above values (ms)                                  "Keller/Solar/TimeStamp"
-    #},
+    # },
     'ENERGY': {
         'GUI_BAT_DATA_CURRENT': '',  # Battery charge current: negative if discharging, positiv if charging (A)     "Keller/Solar/BatCurrent"
         'GUI_BAT_DATA_FUEL_CHARGE': '',  # Remaining battery (percent)                                              "Keller/Solar/SOC"
